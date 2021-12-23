@@ -1,6 +1,6 @@
 # kmrf
 
-kmfr short for Keep Most Recent Files. You specify a directory and a number N.
+kmfr is short for Keep Most Recent Files. You specify a directory and a number N.
 kmfr will then purge (delete) all files and subdirectory except the N most recently modified files.
 
 ## Installation

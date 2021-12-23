@@ -3,8 +3,12 @@
 kmfr is short for Keep Most Recent Files. You specify a directory and a number N.
 kmfr will then purge (delete) all files and subdirectory except the N most recently modified files.
 
-## Installation
-
+## Installation
+``` 
+curl https://raw.githubusercontent.com/nicosalvadore/kmrf/main/kmrf.sh -o kmfr
+chmod +x kmfr
+mv kmfr /usr/local/bin/
+```
 ## Usage
 
 Use the -t flag first to check which files are going to be deleted.

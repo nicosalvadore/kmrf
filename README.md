@@ -5,9 +5,9 @@ kmfr will then purge (delete) all files and subdirectory except the N most recen
 
 ## Installation
 ``` 
-curl https://raw.githubusercontent.com/nicosalvadore/kmrf/main/kmrf.sh -o kmfr
-chmod +x kmfr
-mv kmfr /usr/local/bin/
+curl https://raw.githubusercontent.com/nicosalvadore/kmrf/main/kmrf.sh -o kmrf
+chmod +x kmrf
+mv kmrf /usr/local/bin/
 ```
 ## Usage
 

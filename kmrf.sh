@@ -13,7 +13,7 @@ print_usage() {
   echo "	-q  quantity of files/subdir you would like to keep. Files older than the number input will be deleted. We only keep the N most recent files/folder."
   echo "	-t  Dry run. No file will be deleted. They will only be displayed on screen"
   echo
-  echo "Example: keep-newest-file.sh -d /backup/data/ -q 10"
+  echo "Example: kmrf -d /backup/data/ -q 10"
   echo "Watch out for the trailing slash [/] !"
   echo
 }

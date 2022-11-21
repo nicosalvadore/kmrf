@@ -20,6 +20,6 @@ Usage: kmrf -d directory -q 10 [-t]
 	-q  quantity of files/subdir you would like to keep. Files older than the number input will be deleted. We only keep the N most recent files/folder.
 	-t  Dry run. No file will be deleted. They will only be displayed on screen
 
-Example: keep-newest-file.sh -d /backup/data/ -q 10
+Example: kmrf -d /backup/data/ -q 10
 Watch out for the trailing slash [/] !
 ```
